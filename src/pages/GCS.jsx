@@ -7,7 +7,7 @@ const GCS = () => {
     return (
     <div>
         <Header />
-        <Glass title="Podria interesarte">
+        <Glass title="GCS - Gestion de Calidad de Software">
         </Glass>
         <Footer />
     </div>
