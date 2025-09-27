@@ -2,7 +2,7 @@ import React from 'react';
 import Header from '../components/Header';
 import Glass from '../components/Glass';
 import Footer from '../components/Footer';
-import "../css/GCS.css"
+import "../css/Sections.css"
 
 const GCS = () => {
     return (
