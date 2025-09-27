@@ -4,7 +4,7 @@ import "../css/Glass.css";
 const Glass = ({ children, title }) => {
     return (
         <div className="glass">
-            <h2>{title}</h2>
+            <h2 className="glass-title">{title}</h2>
             {children}
         </div>
     );

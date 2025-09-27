@@ -8,7 +8,7 @@ const Inicio = () => {
     return (
     <div>
         <Header />
-        <Glass>
+        <Glass title="SISTEMA DE GESTIÓN DE CALIDAD DE SOFTWARE">
             <p>Esta página trata sobre un conocimiento básico-intermedio sobre la materia Sistema de Gestión de Calidad de Software y algunos de sus temas principales tales como los procesos de desarrollo, metodologías de trabajo, SCRUM, etc.</p>
         </Glass>
         <Glass title="Podria interesarte">
