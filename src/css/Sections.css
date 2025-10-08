@@ -1,4 +1,9 @@
-/* Contenedor principal del contenido */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .content {
     font-family: 'Segoe UI', Roboto, Arial, sans-serif;
     color: #333;
@@ -8,18 +13,15 @@
     padding: 2rem;
 }
 
-/* Titulares principales */
 .content h2 {
     font-size: 1.8rem;
     color: #2c3e50;
     margin-top: 2rem;
     margin-bottom: 1rem;
     border-left: 6px solid #4b9ce2;
-    /* azul profesional */
     padding-left: 0.6rem;
 }
 
-/* Titulares secundarios */
 .content h3 {
     font-size: 1.4rem;
     color: #34495e;
@@ -27,7 +29,6 @@
     margin-bottom: 0.5rem;
 }
 
-/* Titulares terciarios */
 .content h4 {
     font-size: 1.2rem;
     color: #5d6d7e;
@@ -35,7 +36,6 @@
     margin-bottom: 0.4rem;
 }
 
-/* Párrafos */
 .content p {
     margin-bottom: 1rem;
     font-size: 1rem;
@@ -54,7 +54,32 @@
     position: relative;
 }
 
+/* Estilo visual para listas ordenadas */
+.content ol {
+    counter-reset: item;
+    list-style: none;
+}
+
+.content ol > li {
+    counter-increment: item;
+}
+
+.content ol > li::before {
+    content: counter(item) ".";
+    color: #4b9ce2;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1.5rem;
+    margin-left: -1.5rem;
+}
+
+
 /* Estilo visual para listas no ordenadas */
+.content ul {
+    list-style: none;
+    padding-left: 1.2rem;
+}
+
 .content ul li::before {
     content: "•";
     color: #4b9ce2;
@@ -70,7 +95,6 @@
     font-weight: 600;
 }
 
-/* Links */
 .content a {
     color: #4b9ce2;
     text-decoration: none;
@@ -78,14 +102,6 @@
 
 .content a:hover {
     text-decoration: underline;
-}
-
-/* Glass effect para fondo */
-Glass {
-    backdrop-filter: blur(10px);
-    background: rgba(255, 255, 255, 0.85);
-    border-radius: 20px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 }
 
 /* ──────── CUADROS DESTACADOS ──────── */
@@ -98,7 +114,7 @@ Glass {
     border-radius: 10px;
     font-size: 0.95rem;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
-    border-left: 6px solid;
+    border-right: 6px solid;
 }
 
 /* Tip verde */
@@ -149,8 +165,6 @@ Glass {
     padding-left: 1rem;
 }
 
-
-/* Responsive: textos más pequeños en móviles */
 @media (max-width: 768px) {
     .content {
         padding: 1rem;

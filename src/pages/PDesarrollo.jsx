@@ -88,6 +88,9 @@ const PDesarrollo = () => {
                             Se representa como una “cascada” porque el flujo es descendente y sin retrocesos formales.
                         </p>
                     </div>
+                    <div>
+                        <img src="/cascada.png" alt="Modelo en Cascada" />
+                    </div>
                     <h4>Ventajas</h4>
                     <ul>
                         <li>Simplicidad y fácil de entender.</li>
@@ -118,6 +121,9 @@ const PDesarrollo = () => {
                             <li>Codificación ↔ Pruebas unitarias.</li>
                         </ul>
                     </div>
+                    <div>
+                        <img src="/modeloV.png" alt="Modelo en V" />
+                    </div>
                     <h4>Ventajas</h4>
                     <ul>
                         <li>Refuerza la importancia del testing desde el inicio.</li>
@@ -143,6 +149,9 @@ const PDesarrollo = () => {
                             El sistema va creciendo poco a poco con entregas parciales hasta completar el producto.
                             Permite retroalimentación constante del cliente.
                         </p>
+                    </div>
+                    <div>
+                        <img src="/iterativoIncremental.png" alt="Modelos Iterativos e Incrementales" />
                     </div>
                     <h4>Ventajas</h4>
                     <ul>
@@ -175,10 +184,14 @@ const PDesarrollo = () => {
                         </ul>
                     </div>
 
+                    <div>
+                        <img src="/MetodAgil.png" alt="Metodologías Ágiles" />
+                    </div>
+
                     <h3>Scrum</h3>
                     <h4>Principios</h4>
                     <ul>
-                        <li>Dividir el trabajo en ciclos cortos llamados Sprints (2–4 semanas).</li>
+                        <li>Dividir el trabajo en ciclos cortos llamados Sprints (2-4 semanas).</li>
                         <li>Se busca entregar un incremento de producto funcionando en cada Sprint.</li>
                     </ul>
                     <h4>Roles</h4>

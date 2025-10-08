@@ -10,7 +10,7 @@
     border: 6px solid rgba(0, 0, 0, 0.515);
     box-shadow: 10px 4px 30px rgba(0, 0, 0, 0.86);
     
-    width: 80%;
+    width: 70%;
     height: fit-content;
     
     margin: 3% auto;
@@ -37,4 +37,11 @@
     font-size: 1.5em;
 
     text-align: center;
+}
+
+img {
+    max-width: 50%;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    margin: 1rem 25%;
 }
