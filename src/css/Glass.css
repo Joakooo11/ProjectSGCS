@@ -5,11 +5,10 @@
 }
 
 .glass {
-    background: rgba(187, 187, 187, 0.304);
+    background: linear-gradient(135deg, #e0eafc, #cfdef3);
     border-radius: 15px;
-    border: 6px solid rgba(0, 0, 0, 0.515);
     box-shadow: 10px 4px 30px rgba(0, 0, 0, 0.86);
-    
+
     width: 70%;
     height: fit-content;
     

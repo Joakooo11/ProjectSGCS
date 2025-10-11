@@ -9,10 +9,10 @@ const Header = () => {
     };
     return (
         <div className="header">
-        <div className="logo">
-            <img src="/logoSGCS.svg" alt="Logo" width={70} height={70} />
-            <h1>SCRUM</h1>
-        </div>
+            <div className="logo">
+                <img src="/logoSGCS.svg" alt="Logo" width={70} height={70} />
+                <h1>SCRUM</h1>
+            </div>
             <div className="search-bar">
                 <input type="text" id="search" placeholder="Search..."/>
             </div>
