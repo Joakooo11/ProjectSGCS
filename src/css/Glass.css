@@ -29,9 +29,9 @@
     border-radius: 10px;
     font-size: 0.95rem;
 
-    background-color: rgba(255, 174, 0, 0.2);
-    box-shadow: 0 3px 10px rgba(255, 174, 0, 0.551) ;
-    border-left: 6px solid #ffae00;
+    background: linear-gradient(90deg, #ffb100, #ff8000);
+    box-shadow: 0 3px 10px rgba(255, 174, 0, 0.551);
+    border-left: 6px solid #000000;
 
     font-size: 1.5em;
 
