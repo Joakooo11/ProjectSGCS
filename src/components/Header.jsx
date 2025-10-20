@@ -10,7 +10,7 @@ const Header = () => {
     return (
         <div className="header">
             <div className="logo">
-                <img src="/logoSGCS.svg" alt="Logo" width={70} height={70} />
+                <img src="/logoSGCS.svg" alt="Logo" />
                 <h1>SCRUM</h1>
             </div>
             <div className="search-bar">

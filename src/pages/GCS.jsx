@@ -11,7 +11,6 @@ const GCS = () => {
             <Glass title="GCS - Gestión de Calidad de Software">
                 <div className="content">
 
-                    {/* Introducción */}
                     <div className="card-info">
                         <p>
                             Cuando hablamos de calidad en software no es solo “que funcione”,
@@ -29,7 +28,6 @@ const GCS = () => {
                         </li>
                     </ul>
 
-                    {/* Atributos de Calidad */}
                     <h2>Atributos de calidad típicos</h2>
                     <ol>
                         <li>

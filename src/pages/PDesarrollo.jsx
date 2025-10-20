@@ -11,7 +11,6 @@ const PDesarrollo = () => {
             <Glass title="Procesos de Desarrollo del Software">
                 <div className="content">
 
-                    {/* Introducción SDLC */}
                     <h2>Ciclo de Vida de Desarrollo del Software (SDLC)</h2>
                     <div className="card-info">
                         <p>
@@ -20,7 +19,6 @@ const PDesarrollo = () => {
                         </p>
                     </div>
 
-                    {/* Etapas SDLC */}
                     <h2>Etapas principales del SDLC</h2>
                     <ol>
                         <li>
@@ -78,7 +76,6 @@ const PDesarrollo = () => {
                         </ul>
                     </div>
 
-                    {/* Modelos Tradicionales */}
                     <h2>Modelos Tradicionales</h2>
 
                     <h3>Modelo en Cascada</h3>
@@ -172,7 +169,6 @@ const PDesarrollo = () => {
                         <li>Contextos ágiles, donde la prioridad es la satisfacción temprana del usuario.</li>
                     </ul>
 
-                    {/* Metodologías Ágiles */}
                     <h2>Metodologías Ágiles</h2>
                     <div className="card-tip">
                         <h4>Principios del Manifiesto Ágil (2001)</h4>

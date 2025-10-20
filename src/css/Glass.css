@@ -6,8 +6,10 @@
 
 .glass {
     background: linear-gradient(135deg, #e0eafc, #cfdef3);
-    border-radius: 15px;
     box-shadow: 10px 4px 30px rgba(0, 0, 0, 0.86);
+    color: #2c3e50;
+
+    border-radius: 15px;
 
     width: 70%;
     height: fit-content;
@@ -32,6 +34,7 @@
     background: linear-gradient(90deg, #ffb100, #ff8000);
     box-shadow: 0 3px 10px rgba(255, 174, 0, 0.551);
     border-left: 6px solid #000000;
+    color: #2e1a00;
 
     font-size: 1.5em;
 
